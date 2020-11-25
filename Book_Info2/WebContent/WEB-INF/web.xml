@@ -1,0 +1,37 @@
+<web-app>
+  <servlet>
+  <servlet-name>A</servlet-name>
+  <servlet-class>AddBookServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>A</servlet-name>
+  <url-pattern>/AddBookServlet.com</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>S</servlet-name>
+  <servlet-class>SearchBookServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>S</servlet-name>
+  <url-pattern>/SearchBookServlet.com</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>U</servlet-name>
+  <servlet-class>UpdateBookServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>U</servlet-name>
+  <url-pattern>/UpdateBookServlet.com</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>D</servlet-name>
+  <servlet-class>DeleteBookServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>D</servlet-name>
+  <url-pattern>/DeleteBookServlet.com</url-pattern>
+  </servlet-mapping>
+</web-app>
